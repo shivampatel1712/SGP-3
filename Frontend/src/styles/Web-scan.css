@@ -1,0 +1,144 @@
+.scanner-container {
+    display: flex;
+    flex-direction: column; /* Center the elements vertically */
+    align-items: center; /* Center the elements horizontally */
+    justify-content: center; /* Center the elements vertically */
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  .details {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 30px; /* Space between details and scan box */
+  }
+  
+  .details h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  
+  .details p {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  
+  .scan-box {
+    background-color: #ffffffe6;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    max-width: 700px;
+    width: 100%;
+  }
+  
+  input[type="url"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #030303;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .consent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .consent input[type="checkbox"] {
+    margin-right: 20px;
+    appearance: none;
+    background-color: #ffffff;
+    border: 1px solid #1a2a4a;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .consent input[type="checkbox"]:checked::before {
+    content: '\2714'; /* Checkmark symbol */
+    position: absolute;
+    top: -2px;
+    left: 3px;
+    font-size: 15px;
+    color: #1a2a4a;
+  }
+  
+  .scan-button {
+    background-color: #166afc; /* Match the previous tool button color */
+    color: #ffffff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .scan-button:hover {
+    background-color: #75acff;
+  }
+  
+  .results {
+    background-color: #f8f9fa;
+    color: #000000;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  .results h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #1a2a4a;
+  }
+  
+  .summary p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 5px 0;
+    color:#000000
+
+  }
+  .summary{
+    padding-top: 20px;
+    padding-left: 7px;
+    border-radius: 12px;
+    color: #0e0e0e;
+  }
+  
+  .summary h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    color: #1a2a4a;
+  }
+  
+  /* Risk levels styling
+  .results .alert-list .risk-low {
+    color: #4caf50;
+  }
+  
+  .results .alert-list .risk-medium {
+    color: #ff9800;
+  }
+  
+  .results .alert-list .risk-high {
+    color: #e53935;
+  }
+  
+  .results .alert-list .risk-informational {
+    color: #2196f3;
+  } */
+  

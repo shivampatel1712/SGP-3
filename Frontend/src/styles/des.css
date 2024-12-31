@@ -1,0 +1,149 @@
+/* .main-section{
+    display: flex;
+    justify-content: center;
+    height : 100%;
+    background-color: lightblue;
+} */
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container .center-text {
+    text-align : center !important;
+}
+
+.container .tool_title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container .desc_tool {
+    font-size : 18px;
+    margin-top : 15px;
+}
+
+.summarizer {
+    margin-top: 56px;
+    max-width: 996px;
+    margin-left: auto;
+    margin-right: auto;
+    /* min-height : 800px; */
+    min-height: 100vh;
+    display : block;
+}
+
+.summarizer .row {
+    display : flex;
+    flex-wrap : wrap;
+    justify-content: space-between;
+}
+
+.summarizer-item {
+    background-color: #223544;
+    border-color: #707375;
+    box-shadow: 3px 10px 40px rgba(24, 29, 32, 0.05);
+    border-radius: 12px;
+    padding: 24px;
+    height: 100%;
+}
+
+.summarizer textarea{
+    background-color: #223749;
+    border: 1px solid #828586;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    width : 336px;
+}
+
+.summarizer .form-control {
+    font-size: 0.9rem;
+    resize: none;
+    border-radius: 8px;
+    padding: 16px;
+    height: auto;
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+    /* border-color : #80bdff; */
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.form-control:active {
+    color : #fff;
+}
+
+.summarizer-item .form-group {
+    margin-top : 16px;
+    margin-bottom : 24px;
+    background-color: #223544;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display : inline-block;
+    background: none;
+}
+label #bold {
+    background: none;
+    font-weight: 600;
+}
+
+.summarizer_action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summarizer_action .button {
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.button {
+    display: inline-block;
+    width : 100%;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #1a8fe3;
+    padding: 13px 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #126daf;  
+}
+
+.enter-any-text {
+    font-size : 20px;
+    font-weight: 600;
+}
+
+.encrypted-output {
+    margin-top : 30px;   
+}
+#outputBoxEncrypted ,#outputBoxDecrypted {
+    width: 100%; /* Adjust to fit the parent container */
+    height: 200px; /* Set a bigger height */
+    font-size: 16px; /* Optional: Make the text more readable */
+}

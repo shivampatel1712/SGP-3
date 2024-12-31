@@ -1,0 +1,86 @@
+.password-checker-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 25px;
+  background-color: #2e3b4e;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Slightly deeper shadow for a polished look */
+  border: 1px solid #4caf50; /* Adding a subtle border to accentuate the container */
+}
+
+h1 {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.password-container {
+  margin-bottom: 25px;
+}
+
+#password {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 8px; /* Softer edges for inputs */
+  border: 1px solid #ccc;
+  background-color: #1a2b3c;
+  color: #ffffff;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+input:focus {
+  border-color: #4caf50;
+  background-color: #223544;
+  outline: none;
+}
+
+#togglePassword {
+  display: block;
+  width: 100%;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  margin-top: 10px; /* Add space between input and button */
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3d8b40;
+}
+
+.strength-meter {
+  margin-top: 20px;
+}
+
+.strength-text {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f0f0f0; /* Brighter text for better visibility */
+  text-align: center; /* Centered text for better presentation */
+}
+
+.meter {
+  height: 12px;
+  background-color: #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.meter-fill-grey {
+  height: 100%;
+  transition: width 0.4s ease; /* Slightly faster animation for width changes */
+}
+
+.time-to-crack {
+  margin-top: 15px;
+  font-style: italic;
+  color: #b3b3b3; /* A brighter grey to improve readability */
+  text-align: center;
+}
